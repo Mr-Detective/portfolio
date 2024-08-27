@@ -1,8 +1,8 @@
 /*Styling of the header*/
 .header {
     padding: 10px 16px;
-    background: #555;
-    color: #f1f1f1;
+    background: #ffffff;
+    color: #000000;
 }
 
 /* Page content */
@@ -21,5 +21,13 @@
   .sticky + .content {
     padding-top: 102px;
   }
+
+
+/*Styling of hero section*/
+
+#hero {
+  background-image: url('../images/grey-back.jpg');
+  
+}
 
 
