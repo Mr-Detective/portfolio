@@ -26,16 +26,24 @@
 /*Styling of hero section*/
 
 #hero {
-background-image: url('grey-back.jpg');
-  background-size: cover; /* Ensures the background image covers the entire section */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the background image within the section */
-  min-height: 100vh; /* Makes the section at least as tall as the viewport */
-  width: 100%; /* Makes the section as wide as the viewport */
-  display: flex; /* Flexbox is optional, but useful for centering content */
-  align-items: center; /* Vertically centers content */
-  justify-content: left;
+  background-image: url('grey-back.jpg');
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image within the section */
+    min-height: 100vh; /* Makes the section at least as tall as the viewport */
+    width: 100%; /* Makes the section as wide as the viewport */
+    display: flex; /* Flexbox is optional, but useful for centering content */
+    align-items: center; /* Vertically centers content */
 }
 
+.herotxt h2 {
+  margin-left: 100px;
+  margin-top: -125px;
+}
+
+.herotxt p{
+  margin-left: 100px;
+  margin-top: 20px;
+}
 
 
