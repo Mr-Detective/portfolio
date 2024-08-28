@@ -34,7 +34,7 @@ background-image: url('grey-back.jpg');
   width: 100%; /* Makes the section as wide as the viewport */
   display: flex; /* Flexbox is optional, but useful for centering content */
   align-items: center; /* Vertically centers content */
-  justify-content: center;
+  justify-content: left;
 }
 
 
