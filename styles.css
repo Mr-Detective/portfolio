@@ -1,33 +1,41 @@
 /*Styling of the header*/
 .header {
-    padding: 10px 16px;
-    background: #ffffff;
-    color: #000000;
+  padding: 10px 16px;
+  background: #ffffff;
+  color: #000000;
 }
 
 /* Page content */
 .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 102px;
-  }
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
 
 
 /*Styling of hero section*/
 
 #hero {
-  background-image: url('../images/grey-back.jpg');
-  
+background-image: url('grey-back.jpg');
+  background-size: cover; /* Ensures the background image covers the entire section */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the background image within the section */
+  min-height: 100vh; /* Makes the section at least as tall as the viewport */
+  width: 100%; /* Makes the section as wide as the viewport */
+  display: flex; /* Flexbox is optional, but useful for centering content */
+  align-items: center; /* Vertically centers content */
+  justify-content: center;
 }
+
 
 
