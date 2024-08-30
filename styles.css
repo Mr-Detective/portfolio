@@ -3,6 +3,7 @@
   padding: 10px 16px;
   background: #ffffff;
   color: #000000;
+  height: 100px;
 }
 
 /* Page content */
@@ -22,28 +23,43 @@
   padding-top: 102px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* Ensure the body and html elements cover the full viewport */
+}
 
 /*Styling of hero section*/
 
 #hero {
+  display:flex; 
   background-image: url('grey-back.jpg');
-    background-size: cover; /* Ensures the background image covers the entire section */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-position: center; /* Centers the background image within the section */
-    min-height: 100vh; /* Makes the section at least as tall as the viewport */
-    width: 100%; /* Makes the section as wide as the viewport */
-    display: flex; /* Flexbox is optional, but useful for centering content */
-    align-items: center; /* Vertically centers content */
+  width: 100%;
+  height: 600px;
+  background-size: cover; /* Ensures the background image covers the entire section */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the background image within the section */
+  align-items: center;
 }
 
 .herotxt h2 {
-  margin-left: 100px;
-  margin-top: -125px;
+margin-left: 85px;
+margin-top: -50px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 40px;
 }
 
 .herotxt p{
-  margin-left: 100px;
-  margin-top: 20px;
+display: flex;  
+margin-left: 85px;
+margin-top: 20px;
+width: 200px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
 }
 
 
